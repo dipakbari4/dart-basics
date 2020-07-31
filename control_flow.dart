@@ -25,9 +25,11 @@ main(List<String> args) {
     print(month);
   }
 
+  int age = 0;
   // while loop
   while (dob < 2020) {
     dob += 1;
-    print('Birthday $dob');
+    age += 1;
+    print('My age was $age on $dob year');
   }
 }
